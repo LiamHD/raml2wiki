@@ -66,7 +66,10 @@ h6. Form Parameters
 h5. Responses
 
    {{#each responses}}
-     h6. {{@key}} {{#if this.description}} - {{this.description}}{{/if}}
+     h6. {{@key}} 
+         {{#if this.description}}
+         {{this.description}}
+         {{/if}}
 
          {{#if this.headers}}
                                                
